@@ -4,6 +4,7 @@
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
+    "buildci": "ng build -c production --base-href toh-gb",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^15.2.0-rc.0",
     "@angular/router": "^15.2.0-rc.0",
     "angular-in-memory-web-api": "~0.15.0",
+    "angular.io-example": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
